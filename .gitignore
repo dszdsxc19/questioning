@@ -1,0 +1,12 @@
+# Ignore local workspace states (causes most merge conflicts)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+
+# Ignore cache and temporary system files
+.obsidian/cache/
+.trash/
+.DS_Store
+
+.obsidian/plugins/*
+
