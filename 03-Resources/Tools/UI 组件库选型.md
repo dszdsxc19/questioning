@@ -197,8 +197,8 @@ aliases:
 ## Related
 
 - [Skills 库](</Users/admin/Desktop/questioning/03-Resources/Tools/Skills 库.md>)
-- 待补：`AI 工具与网站索引`
-- 待补：`前端组件选型原则`
+- [[AI 辅助设计工作流]]
+- [[Prompt 设计原则]]
 
 ## Open Questions
 

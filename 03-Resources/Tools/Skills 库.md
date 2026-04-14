@@ -330,9 +330,9 @@ npx skills add git@github.com:kepano/obsidian-skills.git --skill defuddle
 
 ## Related
 
-- 待补：`AI 工具与网站索引`
-- 待补：`Prompt Patterns`
-- 待补：`AI Coding Workflow`
+- [[Skill 机制与渐进式披露]]
+- [[AI 辅助设计工作流]]
+- [[Prompt 设计原则]]
 
 ## Open Questions
 
