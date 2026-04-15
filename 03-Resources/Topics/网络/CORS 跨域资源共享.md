@@ -1,14 +1,15 @@
 ---
 tags:
-  - inbox
-type: capture
-status: inbox
+- network
+- browser
+- cors
+type: resource
+status: active
 created: 2026-04-14
-updated: 2026-04-14
+updated: '2026-04-14'
 source_type: migrated_note
-source_path: "面试/基础/基础-CORS 跨域资源共享.md"
+source_path: 面试/基础/基础-CORS 跨域资源共享.md
 ---
-
 # CORS 跨域资源共享
 
 > 先看总览：[[基础-CORS、CSRF、XSS：区别、联系与防御]]

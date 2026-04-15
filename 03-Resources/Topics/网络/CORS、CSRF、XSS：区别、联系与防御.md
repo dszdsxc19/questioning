@@ -1,18 +1,16 @@
 ---
-title: "CORS、CSRF、XSS：区别、联系与防御"
-created: 2026-03-24
-updated: 2026-03-24
 tags:
-  - "security"
-  - "http"
-  - "browser"
-  - "frontend"
-type: capture
-status: inbox
+- security
+- browser
+- http
+type: resource
+status: active
+created: 2026-03-24
+updated: '2026-04-14'
 source_type: migrated_note
-source_path: "面试/基础/基础-CORS、CSRF、XSS：区别、联系与防御.md"
+source_path: 面试/基础/基础-CORS、CSRF、XSS：区别、联系与防御.md
+title: CORS、CSRF、XSS：区别、联系与防御
 ---
-
 # CORS、CSRF、XSS：区别、联系与防御
 
 ## 一句话先说清

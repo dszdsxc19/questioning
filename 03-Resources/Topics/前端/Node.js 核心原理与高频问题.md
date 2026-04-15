@@ -1,14 +1,15 @@
 ---
 tags:
-  - inbox
-type: capture
-status: inbox
+- frontend
+- nodejs
+- runtime
+type: resource
+status: active
 created: 2026-04-14
-updated: 2026-04-14
+updated: '2026-04-14'
 source_type: migrated_note
-source_path: "面试/基础/基础-Node.js 核心原理与高频面试题.md"
+source_path: 面试/基础/基础-Node.js 核心原理与高频面试题.md
 ---
-
 # Node.js 核心原理与高频面试题
 
 > Node.js 面试里，真正高频考的不是 API 背诵，而是**运行时原理 + 服务端工程能力**。

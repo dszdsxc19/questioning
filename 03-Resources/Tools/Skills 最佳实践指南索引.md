@@ -1,18 +1,16 @@
 ---
-title: Skills 最佳实践指南索引
 tags:
-  - Skills
-  - Claude
-  - 最佳实践
-  - 方法论
-  - AI编程
+  - ai
+  - skills
+  - reference
+type: resource
+status: active
 created: 2026-03-31
-updated: 2026-03-31
+updated: 2026-04-14
 source: Anthropic 官方文档
-source_path: https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf
-type: 索引
-status: inbox
-source_type: migrated_note
+source_type: pdf
+source_url: https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf
+source_path: "方法论/Skills 最佳实践指南索引.md"
 ---
 
 # Skills 最佳实践指南索引

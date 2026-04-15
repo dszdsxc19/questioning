@@ -1,20 +1,17 @@
 ---
-title: SQL隐式转换与索引失效
-created: 2026-03-23
-description: "面试高频知识点：MySQL 在 where 条件里发生隐式转换时，什么时候影响索引，什么时候会导致全表扫描。"
 tags:
-  - SQL
-  - MySQL
-  - 数据库
-  - 面试
-  - 索引
-type: capture
-status: inbox
-updated: 2026-04-14
+- database
+- sql
+- index
+type: resource
+status: active
+created: 2026-03-23
+updated: '2026-04-14'
 source_type: migrated_note
-source_path: "面试/基础/基础-SQL隐式转换与索引失效.md"
+source_path: 面试/基础/基础-SQL隐式转换与索引失效.md
+description: 面试高频知识点：MySQL 在 where 条件里发生隐式转换时，什么时候影响索引，什么时候会导致全表扫描。
+title: SQL隐式转换与索引失效
 ---
-
 ## 一句话结论
 
 当操作符两边数据类型不一致时，MySQL 会发生隐式转换。

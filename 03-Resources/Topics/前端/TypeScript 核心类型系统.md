@@ -1,14 +1,15 @@
 ---
 tags:
-  - inbox
-type: capture
-status: inbox
+- frontend
+- typescript
+- language
+type: resource
+status: active
 created: 2026-04-14
-updated: 2026-04-14
+updated: '2026-04-14'
 source_type: migrated_note
-source_path: "面试/基础/基础-TypeScript 核心类型系统.md"
+source_path: 面试/基础/基础-TypeScript 核心类型系统.md
 ---
-
 # TypeScript 核心类型系统
 
 > 本文梳理 TypeScript 类型系统的核心概念，涵盖 any/unknown、keyof、工具类型、条件类型、infer 等面试常考知识点。

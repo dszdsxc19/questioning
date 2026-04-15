@@ -1,22 +1,17 @@
 ---
-title: 点赞系统设计 - 数据库、缓存一致性与 Redis 选型
-created: 2026-03-23
-description: "从点赞关系、冷热分层、Redis 缓存、异步持久化到异常降级，系统梳理高并发点赞场景的设计思路，并引出 Redis 五大基本数据结构的实际选型方法。"
 tags:
-  - 面试
-  - 场景设计
-  - Redis
-  - 缓存
-  - MySQL
-  - 高并发
-  - 一致性
-type: capture
-status: inbox
-updated: 2026-04-14
+- distributed
+- cache
+- consistency
+type: resource
+status: active
+created: 2026-03-23
+updated: '2026-04-14'
 source_type: migrated_note
-source_path: "面试/场景设计/场景设计-点赞系统设计-数据库缓存一致性与Redis选型.md"
+source_path: 面试/场景设计/场景设计-点赞系统设计-数据库缓存一致性与Redis选型.md
+description: 从点赞关系、冷热分层、Redis 缓存、异步持久化到异常降级，系统梳理高并发点赞场景的设计思路，并引出 Redis 五大基本数据结构的实际选型方法。
+title: 点赞系统设计 - 数据库、缓存一致性与 Redis 选型
 ---
-
 > [!tip] 方法论参考
 > 本题涉及数据建模、缓存分层和一致性取舍，可参考 [[指导思想/从需求到上线——完整的系统设计方法论]] 中的架构设计、模块拆分和非功能需求处理。
 

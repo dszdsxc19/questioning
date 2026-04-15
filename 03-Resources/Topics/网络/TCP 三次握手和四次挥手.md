@@ -1,25 +1,21 @@
 ---
-title: TCP三次握手和四次挥手
-source: "https://javaguide.cn/cs-basics/network/tcp-connection-and-disconnection.html"
-author:
-  - "Guide"
-published: 2026-01-16
-created: 2026-03-03
-description: "TCP是面向连接的可靠传输层协议。三次握手建立连接，四次挥手断开连接。详解SEQ/ACK/SYN/FIN如何同步，TIME_WAIT与2MSL的原因，半连接队列与全连接队列的工作机制。"
 tags:
-  - "TCP"
-  - "网络"
-  - "三次握手"
-  - "四次挥手"
-  - "面试"
-  - "计算机网络"
-type: capture
-status: inbox
-updated: 2026-04-14
+- network
+- tcp
+- protocol
+type: resource
+status: active
+created: 2026-03-03
+updated: '2026-04-14'
+author:
+- Guide
 source_type: migrated_note
-source_path: "面试/基础/基础-TCP三次握手和四次挥手.md"
+source_url: https://javaguide.cn/cs-basics/network/tcp-connection-and-disconnection.html
+source_path: 面试/基础/基础-TCP三次握手和四次挥手.md
+description: TCP是面向连接的可靠传输层协议。三次握手建立连接，四次挥手断开连接。详解SEQ/ACK/SYN/FIN如何同步，TIME_WAIT与2MSL的原因，半连接队列与全连接队列的工作机制。
+title: TCP三次握手和四次挥手
+published: 2026-01-16
 ---
-
 ## 概述
 
 TCP（Transmission Control Protocol）是一种**面向连接**、**可靠**的传输层协议。所谓"可靠"，通常体现在：按序交付、差错检测、丢包重传、流量控制与拥塞控制等。

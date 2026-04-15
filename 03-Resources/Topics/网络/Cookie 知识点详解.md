@@ -1,17 +1,16 @@
 ---
-title: "Cookie 知识点详解"
-created: 2026-03-03
 tags:
-  - "frontend"
-  - "http"
-  - "security"
-type: capture
-status: inbox
-updated: 2026-04-14
+- network
+- auth
+- browser
+type: resource
+status: active
+created: 2026-03-03
+updated: '2026-04-14'
 source_type: migrated_note
-source_path: "面试/基础/基础-Cookie 知识点详解.md"
+source_path: 面试/基础/基础-Cookie 知识点详解.md
+title: Cookie 知识点详解
 ---
-
 > 相关总览：[[基础-CORS、CSRF、XSS：区别、联系与防御]]
 
 ## 前言

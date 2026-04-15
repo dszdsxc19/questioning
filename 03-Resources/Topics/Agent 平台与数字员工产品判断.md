@@ -1,13 +1,13 @@
 ---
-title: "Agent 平台与数字员工产品判断"
-source: "Apple Notes 提炼"
-source_notes: ["AN-01", "AN-02", "AN-10", "AN-45", "AN-56"]
-type: capture
-status: inbox
+tags:
+  - ai
+  - agent
+  - product
+type: resource
+status: active
 created: 2026-04-14
 updated: 2026-04-14
-tags:
-  - inbox
+source: "Apple Notes 提炼"
 source_type: migrated_note
 source_path: "方法论/8 - Agent 平台与数字员工产品判断.md"
 ---

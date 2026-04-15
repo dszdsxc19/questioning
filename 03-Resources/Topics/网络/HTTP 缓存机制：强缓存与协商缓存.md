@@ -1,23 +1,21 @@
 ---
-title: HTTP缓存机制 - 强缓存与协商缓存
-source: "https://juejin.cn/post/6844903838768431118"
-author:
-  - "[[HarryPangPang]]"
-published: 2019-05-06
-created: 2026-03-01
-description: "HTTP缓存机制主要在http响应头中设定，响应头中相关字段为Expires、Cache-Control、Last-Modified、Etag。详细介绍强缓存和协商缓存的区别与使用场景。"
 tags:
-  - "HTTP"
-  - "缓存"
-  - "面试"
-  - "前端"
-type: capture
-status: inbox
-updated: 2026-04-14
+- network
+- http
+- cache
+type: resource
+status: active
+created: 2026-03-01
+updated: '2026-04-14'
+author:
+- "[[HarryPangPang]]"
 source_type: migrated_note
-source_path: "面试/基础/基础-HTTP缓存机制-强缓存与协商缓存.md"
+source_url: https://juejin.cn/post/6844903838768431118
+source_path: 面试/基础/基础-HTTP缓存机制-强缓存与协商缓存.md
+description: HTTP缓存机制主要在http响应头中设定，响应头中相关字段为Expires、Cache-Control、Last-Modified、Etag。详细介绍强缓存和协商缓存的区别与使用场景。
+title: HTTP缓存机制 - 强缓存与协商缓存
+published: 2019-05-06
 ---
-
 ## 什么是缓存？
 
 浏览器缓存(Browser Caching)是浏览器对之前请求过的文件进行缓存，以便下一次访问时重复使用，**节省带宽，提高访问速度，降低服务器压力**。

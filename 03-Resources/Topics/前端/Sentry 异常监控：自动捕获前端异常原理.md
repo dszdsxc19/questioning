@@ -1,20 +1,20 @@
 ---
-title: "使用 Sentry 做异常监控 - Sentry 是如何做到自动捕获前端应用异常的呢？"
-source: "https://juejin.cn/post/7145420611639050271"
-author:
-  - "[[0o华仔o0]]"
-published: 2022-09-20
-created: 2026-03-01
-description: "本文介绍 Sentry 自动捕获前端异常的机制原理"
 tags:
-  - "clippings"
-  - "error-monitoring"
-  - "sentry"
-type: capture
-status: inbox
-updated: 2026-04-14
+- frontend
+- monitoring
+- sentry
+type: resource
+status: active
+created: 2026-03-01
+updated: '2026-04-14'
+author:
+- "[[0o华仔o0]]"
 source_type: migrated_note
-source_path: "面试/基础/基础-Sentry异常监控-自动捕获前端异常原理.md"
+source_url: https://juejin.cn/post/7145420611639050271
+source_path: 面试/基础/基础-Sentry异常监控-自动捕获前端异常原理.md
+description: 本文介绍 Sentry 自动捕获前端异常的机制原理
+title: 使用 Sentry 做异常监控 - Sentry 是如何做到自动捕获前端应用异常的呢？
+published: 2022-09-20
 ---
 ## 前言
 
