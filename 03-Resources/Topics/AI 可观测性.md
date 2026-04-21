@@ -6,7 +6,7 @@ tags:
 type: resource
 status: active
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-04-20
 canonical: true
 aliases:
   - AI Tracing 语义规范与 Mastra 实现
@@ -81,6 +81,19 @@ Trace 能把一次任务拆成多个 span，例如：
 - 支持跨系统分析
 - 让评估、监控、排障使用同一底层数据模型
 
+### `gen_ai.*` 为什么值得单独记住
+
+在 AI tracing 场景里，真正高价值的不是某个供应商面板怎么展示，而是底层 span 和属性有没有用统一语义表达。
+
+像 `gen_ai.operation.name`、`gen_ai.request.model`、`gen_ai.usage.input_tokens`、`gen_ai.usage.output_tokens` 这类字段之所以重要，不是因为名字本身，而是因为它们让你能把：
+
+- 成本
+- 延迟
+- 错误
+- Agent / Tool / Workflow 轨迹
+
+放到同一条可比较的数据链路里。
+
 ### 与 Agent 评估的关系
 
 - 评估回答“系统是否变好”
@@ -98,15 +111,25 @@ Trace 能把一次任务拆成多个 span，例如：
 - span 可以自然映射到模型调用、工具执行、Agent 运行、Workflow 运行
 - 这说明真正重要的不是某个框架名字，而是它有没有采用可迁移的数据模型
 
+### 生产上真正该盯什么
+
+如果要把 tracing 用在长期维护上，优先关注这些指标是否能落到 span 级：
+
+- 模型、工具、workflow 各自的延迟
+- 输入与输出 token
+- 工具调用失败率
+- 某类任务的常见失败节点
+- 一次任务里是否存在明显冗余步骤
+
 ## Sources
 
-- 旧笔记：`/Users/admin/Desktop/mine/小宇宙/30 Knowledge/AI/AI Tracing 语义规范与 Mastra 实现.md`
-- 旧笔记：`/Users/admin/Desktop/mine/小宇宙/30 Knowledge/AI/Mastra 的 Workspace、Sandbox 与 NAS 挂载设计.md`
+- 来源：旧库《小宇宙》中的 AI tracing 迁移稿，已并入本页
 
 ## Related
 
 - [[Agent 评估]]
 - [[Agent 编排与 Sub-agent]]
+- [[Agent 工作空间与 Sandbox]]
 
 ## Open Questions
 

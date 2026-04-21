@@ -1,0 +1,214 @@
+{
+  "title": "我的全栈简历-字节",
+  "basic": {
+    "name": "谭勇",
+    "title": "全栈开发工程师 / AI 应用工程师",
+    "employementStatus": "在职",
+    "email": "dszdsxc19@gmail.com",
+    "phone": "13368194380",
+    "location": "江苏省南京市",
+    "birthDate": "2001/06",
+    "fieldOrder": [
+      {
+        "id": "1",
+        "key": "name",
+        "label": "姓名",
+        "type": "text",
+        "visible": true
+      },
+      {
+        "id": "2",
+        "key": "title",
+        "label": "职位",
+        "type": "text",
+        "visible": true
+      },
+      {
+        "id": "6",
+        "key": "phone",
+        "label": "电话",
+        "type": "text",
+        "visible": true
+      },
+      {
+        "id": "5",
+        "key": "email",
+        "label": "邮箱",
+        "type": "text",
+        "visible": true
+      }
+    ],
+    "icons": {
+      "email": "Mail",
+      "phone": "Phone",
+      "birthDate": "CalendarRange",
+      "employementStatus": "Briefcase",
+      "location": "MapPin"
+    },
+    "photoConfig": {
+      "width": 90,
+      "height": 120,
+      "aspectRatio": "3:4",
+      "borderRadius": "none",
+      "customBorderRadius": 0,
+      "visible": false
+    },
+    "customFields": [
+      {
+        "id": "personal",
+        "label": "个人网站",
+        "value": "blog.dszdsxc19.life",
+        "icon": "Globe",
+        "visible": true
+      },
+      {
+        "id": "github",
+        "label": "Github",
+        "value": "github.com/dszdsxc19",
+        "icon": "Github",
+        "visible": true
+      }
+    ],
+    "photo": "",
+    "githubKey": "",
+    "githubUseName": "",
+    "githubContributionsVisible": false,
+    "layout": "left"
+  },
+  "education": [
+    {
+      "id": "1",
+      "school": "重庆大学（985）",
+      "major": "计算机科学与技术",
+      "degree": "本科",
+      "startDate": "2019/09",
+      "endDate": "2023/06",
+      "visible": true,
+      "gpa": "",
+      "description": "<ul class=\"custom-list\"><li><p>主修课程：数据结构与算法、操作系统、计算机网络、数据库系统、软件工程、深度学习</p></li><li><p>专业排名前 30%，获得国家级奖学金</p></li><li><p>具备扎实计算机基础与工程实践能力</p></li></ul>"
+    }
+  ],
+  "skillContent": "<ul class=\"custom-list\"><li><p><strong>全栈与服务端：</strong>熟悉 TypeScript、Node.js、Python，具备 Web 全栈开发基础；有 FastAPI、Serverless 函数、BFF / Agent Runtime 设计与落地经验，了解 Spring Boot 与常见微服务模式</p></li><li><p><strong>AI Agent / 平台工程：</strong>熟悉 RAG、Agent、Tool Calling、多 Agent 协作，掌握 Mastra、LangGraph、AI SDK、Assistant UI、Generative UI；理解 MCP 化服务、工具协议抽象、跨系统智能编排与 Agent 平台化建设</p></li><li><p><strong>前端与多端：</strong>熟悉 React、Next.js、Web Components，能够承担 AI 应用前后端联调；了解 Electron、React Native、Flutter、UniApp、小程序等多端接入场景与 SDK 集成方式</p></li><li><p><strong>音视频与实时链路：</strong>有 ASR 实时语音流处理、通话分析、低延迟交互系统建设经验，了解 WebRTC、WebSocket、流式传输、音视频处理链路及性能优化思路</p></li><li><p><strong>数据与基础设施：</strong>熟悉 PostgreSQL、pgvector、Redis、缓存与异步任务设计，具备可观测性、APM、日志链路、CI/CD、K8s、函数计算等云原生实践经验</p></li><li><p><strong>工程能力：</strong>有中大型 AI 项目架构设计、协议抽象、复用型 SDK 设计经验，关注系统稳定性、扩展性、低延迟与研发效率</p></li></ul>",
+  "selfEvaluationContent": "<p>3 年左右全栈 / AI 应用研发经验，具备从前端交互、BFF / Runtime、检索与工具编排到部署观测的端到端交付能力。近两年重点投入在 Agent、RAG、MCP 化能力抽象、Generative UI、实时分析链路与复用型 SDK 设计上，能在保证真实落地的前提下，快速将 AI 能力产品化、平台化并服务多业务场景。</p>",
+  "experience": [
+    {
+      "id": "exp-1",
+      "company": "满帮集团",
+      "position": "AI 应用开发工程师",
+      "date": "2025/08 - 2026/03",
+      "details": "<ul class=\"custom-list\"><li><p>参与销售 / 客服场景 AI Agent 系统核心研发，负责从前端交互、Agent Runtime 到实时分析链路的端到端建设，推动通话前、中、后的智能化闭环落地</p></li><li><p>设计并实现与业务框架解耦的 Web Components + Agent SDK，统一模型交互与工具调用协议，支撑多条业务线快速接入，接入成本缩短至 1 天</p></li><li><p>基于 ASR、LLM 与工具编排实现实时话术推荐、会话结构化分析与盘后复盘，推动业务通话意向转化率提升约 8%，新员工培训周期缩短约 30%</p></li><li><p>在服务端侧建设轻量 Runtime、缓存与可观测链路，关注低延迟与并发场景稳定性，为后续 MCP 化与平台复用奠定基础</p></li></ul>",
+      "visible": true
+    },
+    {
+      "id": "exp-2",
+      "company": "花旗金融",
+      "position": "Tech Analyst（全栈）",
+      "date": "2023/06 - 2025/08",
+      "visible": true,
+      "details": "<ul class=\"custom-list\"><li><p>负责内部自动化测试平台智能化升级，主导 AI Q&amp;A Chatbot、日志诊断 Agent、评测与可观测模块的前后端研发</p></li><li><p>基于 pgvector + RAG 构建知识检索问答链路，并结合 LLM 提供开发者自助支持能力，上线后基础问题工单拦截率达到 60%，每周节省约 15 小时人工支持时间</p></li><li><p>设计 Sidecar 诊断 Agent 自动解析测试日志、归纳根因并输出可读报告，缩短问题定位时间，提升复杂系统的诊断效率</p></li><li><p>在项目中承担前端页面、服务端能力、日志链路与部署协同，形成较完整的全栈交付经验</p></li></ul>"
+    }
+  ],
+  "draggingProjectId": null,
+  "projects": [
+    {
+      "id": "p1",
+      "name": "AI 销售外呼 Agent 系统",
+      "role": "核心开发",
+      "date": "2025/10 - 2026/03",
+      "description": "<p><em>项目描述</em>：面向销售与客服团队构建 AI 原生外呼辅助系统，覆盖实时话术建议、会话结构化、盘后分析与跨系统动作协同，兼顾业务落地与平台复用能力。</p><ul class=\"custom-list\"><li><p><strong>后端 Runtime 与编排：</strong>基于 Mastra 设计 Agent Runtime，串联 ASR、LLM、RAG、工具调用与 Memory，支撑实时通话场景下的低延迟决策与异步处理</p></li><li><p><strong>MCP 化思路与协议抽象：</strong>围绕工具调用与跨网页动作协同，探索类似 MCP 的底层机制，将业务系统能力协议化，提升 Agent 能力在多系统之间的复用与编排空间</p></li><li><p><strong>全栈交付：</strong>前端基于 React / Web Components 输出复用型交互组件，服务端依托函数计算与缓存机制保障稳定性，形成从交互到运行时的完整链路</p></li><li><p><strong>项目结果：</strong>业务接入成本降低至 1 天，单次通话意向转化率提升约 8%，培训周期缩短约 30%</p></li></ul>",
+      "visible": true
+    },
+    {
+      "id": "p2",
+      "name": "测试平台智能答疑与诊断模块",
+      "role": "技术负责人 / 核心开发",
+      "date": "2024/08 - 2025/06",
+      "description": "<p><em>项目描述</em>：为内部测试平台引入 AI 问答与异常诊断能力，构建知识检索、日志分析、报告生成与前端展示的一体化系统，降低技术支持与排障成本。</p><ul class=\"custom-list\"><li><p><strong>RAG 服务端链路：</strong>基于 PostgreSQL + pgvector 搭建文档切块、向量检索、重排与回答生成流程，面向内部框架文档提供开发者问答能力</p></li><li><p><strong>异步诊断 Agent：</strong>在 Sidecar / 后台任务中接入 LLM 节点，对高频日志进行自动解析、异常聚类与根因归纳，避免阻塞主流程</p></li><li><p><strong>平台能力建设：</strong>补齐评测、日志、Tracing 与可观测链路，支持问题复盘与持续优化；同时承担前端 Chatbot 页面与后端服务协同开发</p></li><li><p><strong>项目结果：</strong>基础支持问题拦截率达 60%，团队每周节省约 15 小时人工答疑时间，显著缩短用户排障路径</p></li></ul>",
+      "visible": true
+    },
+    {
+      "id": "p3",
+      "name": "复用型 Agent SDK 与多端接入能力建设",
+      "role": "核心设计与开发",
+      "date": "2025/09 - 2026/03",
+      "description": "<p><em>项目描述</em>：围绕业务 AI 化过程中重复建设严重、接入效率低的问题，抽象可复用 Agent SDK 与组件层，支撑不同前端框架和多端容器接入同一套 Agent 能力。</p><ul class=\"custom-list\"><li><p><strong>协议统一：</strong>基于 AI SDK 协议封装模型交互、流式消息、Tool Calling 与事件分发，降低业务接入复杂度</p></li><li><p><strong>组件解耦：</strong>采用 Web Components 作为通用承载层，适配 React 等不同宿主环境，提升 UI 与运行时的复用性</p></li><li><p><strong>多端思考：</strong>虽然主要交付在 Web，但设计时兼顾 Electron、React Native、Flutter、小程序等多端容器的 SDK 集成方式，贴合音视频 / AI 应用常见落地场景</p></li><li><p><strong>平台价值：</strong>为后续 Agent 平台化、Generative UI 和复杂工作流能力复用提供统一接入层</p></li></ul>",
+      "visible": true
+    },
+    {
+      "id": "p4",
+      "name": "云原生 AI 应用部署与观测实践",
+      "role": "核心开发",
+      "date": "2024/08 - 2026/03",
+      "description": "<p><em>项目描述</em>：在多个 AI 项目中承担部署、发布与运行观测相关能力建设，支撑 AI 应用从开发验证到线上运行的完整生命周期。</p><ul class=\"custom-list\"><li><p><strong>Serverless / 云函数实践：</strong>基于阿里云 FC 等函数计算环境部署 Agent 服务与轻量后端，提升弹性与研发效率</p></li><li><p><strong>AI 应用工程化：</strong>围绕环境隔离、配置管理、链路日志、错误监控和评测反馈完善运行体系，贴近 AI Cloud / AI 建站类平台关注的交付能力</p></li><li><p><strong>前后端一体交付：</strong>兼顾页面搭建、接口联调、服务发布与线上观测，能够在较短周期内完成 AI 应用的从开发到上线闭环</p></li></ul>",
+      "visible": true
+    }
+  ],
+  "menuSections": [
+    {
+      "id": "basic",
+      "title": "基本信息",
+      "icon": "👤",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "education",
+      "title": "教育经历",
+      "icon": "🎓",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "skills",
+      "title": "专业技能",
+      "icon": "⚡",
+      "enabled": true,
+      "order": 2
+    },
+    {
+      "id": "experience",
+      "title": "工作经验",
+      "icon": "💼",
+      "enabled": true,
+      "order": 3
+    },
+    {
+      "id": "projects",
+      "title": "项目经历",
+      "icon": "🚀",
+      "enabled": true,
+      "order": 4
+    }
+  ],
+  "certificates": [],
+  "customData": {
+    "custom-1": [
+      {
+        "id": "custom-empty",
+        "title": "未命名模块",
+        "subtitle": "",
+        "dateRange": "",
+        "description": "",
+        "visible": false
+      }
+    ]
+  },
+  "activeSection": "skills",
+  "globalSettings": {
+    "baseFontSize": 16,
+    "pagePadding": 32,
+    "paragraphSpacing": 16,
+    "lineHeight": 1.5,
+    "sectionSpacing": 24,
+    "headerSize": 18,
+    "subheaderSize": 16,
+    "useIconMode": true,
+    "themeColor": "#0047AB",
+    "centerSubtitle": true,
+    "flexibleHeaderLayout": true
+  },
+  "id": "byte-dedicated-fullstack-resume",
+  "createdAt": "2026-03-26T00:00:00.000Z",
+  "updatedAt": "2026-03-26T00:00:00.000Z",
+  "templateId": "classic"
+}
